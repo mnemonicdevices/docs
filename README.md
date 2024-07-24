@@ -1,4 +1,5 @@
-<img src="https://mnemonicdevices.io/cdn/shop/files/5x2-rectangle_MD-Sticker_1_WEB_Bolder_Inverted.png?v=1720105555&width=400" width="400px" />
+
+<img src="https://cdn.shopify.com/s/files/1/0842/2113/3146/files/5x2-rectangle_MD-Sticker_1_WEB.png?v=1721809368&width=400" width="400px" />
 
 # mnemonic devices documentation 
 
