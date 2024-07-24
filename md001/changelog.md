@@ -1,0 +1,124 @@
+---
+layout: default
+title: Changelog
+parent: MD-001
+nav_order: 2
+---
+
+# Changelog
+
+{: .label .label-yellow }
+__ATTENTION: Settings can often be wiped when a new firmware is released. [Check the upgrade guide for more information](/md001/support/updates.html)__
+
+- [`07/05/24: Firmware 0.5.3 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.5.3.bin)
+  - Add small delay on bootup before initialising SD card
+- `28/03/24: Firmware 0.5.2 released`
+  - Fix offset in unipolar mode
+- `06/03/24: Firmware 0.5.1 released`
+  - Fix hang when rebooting Juniper while Gin is connected [(update for Gin available 0.1.4)](/md002/changelog.html)
+  - Fix Gin Updater
+- `29/02/24: Firmware 0.5.0 released`
+  - Add new waveforms, `Tan` and `Stair-step`
+  - Rework `Sin` morph
+  - 4 quadrant multiplication / polarization / inversion modulation added. `Amplitude` now ranges from +100 to -100
+  - Support for fractional (1/10th) BPM synchronization. Available from the `SYSTEM` settings
+  - Fix a serious recorder overdub bug, along with some fixes to Gin
+  - Rework the CV input to handle bipolar and unipolar signals better
+  - Optimized power consumption & heat dissipation
+  - Improved error handling
+  - Other small fixes
+- `23/01/24: Firmware 0.4.6 released`
+  - Optimize recorder resulting in faster read speeds
+  - Improve `Reset Mode` (formally known as `Run Reset`)
+  - Numerous fixes for waveform modulation UX
+  - Function generator mode will now return to 0.0V after the cycle ends
+  - Improved error reporting and handling
+- `28/12/23: Firmware 0.4.5 released`
+  - Improved responsiveness of envelope waveform
+  - Phase now modifiable when frequency modulating (applicable for `Function Generator` mode)
+  - Fix phase offset bug in `Function Generator` mode
+  - Fix sample & hold negative threshold
+  - Other small fixes
+- `03/11/23: Firmware 0.4.4 released`
+  - Fixes to trigger logic
+  - `Time` modulation is now inverted in relation to `Frequency`
+  - Smarter wiping of user data when upgrading firmware
+- `27/10/23: Firmware 0.4.3 released`
+  - Rework `Random` waveform morph logic for stair-step and slew
+  - Greatly improve `Frequency` fine / course parameter changes
+  - Fix `Mix` and fine / course parameter changes
+  - Reduce duration to switch between fine / course modes
+  - Tweak `Exp` waveform exponent
+- `20/10/23: Firmware 0.4.2 released`
+  - Fix quickslot assign issue when assigning quick-slot to top item in the list
+- `10/10/23: Firmware 0.4.1 released`
+  - Improve DAC reliability
+  - Fix an issue with default states
+- `09/10/23: Firmware 0.4.0 released`
+  - Frequency can now be de-synchronized, allowing for a range of 1mHz to 128Hz
+  - Input Focus now supports modulation
+  - Added trigger support. Channels can now be triggered by an external CV source, or any of the other internal channels
+  - "Envelope" waveform replaces the "Exp" and R.Exp" waveforms
+  - Course and fine grain mode for parameter changes has been added
+  - Added state management. States are saved directly to the SD Card
+  - States can be recalled with "Quick-slots", up-to 8 quick-slots can be used
+  - Added recorder links
+  - Unipolar mode amplitude now scales from 0% to make it more appropriate for feeding unipolar CV to VCAs and alike
+  - Random waveform now respects the Phase setting
+  - Fixed modulation inconsistencies
+  - Added screensaver
+  - Lots of smaller fixes and optimizations
+- `06/08/23: Firmware 0.3.2 released`
+  - Recorder trigger fixes and improvements
+  - Rework run modes and reset logic, added run gate latch
+  - GUI fixes
+- `24/07/23: Firmware 0.3.1 released`
+  - Full MD-002 Gin capability
+  - Added recorder bar progress UI indicator
+  - Much improved recorder streaming and error handling
+  - Added new SYSTEM menu
+- `08/05/23: Firmware 0.2.3 released`
+  - Added Recorder overdub capability
+  - Improved Recorder UI indicators
+  - Recorders using dynamic length recordings can now reach a maximum of 65536 bars
+  - Added performance mute mode
+  - Added new "modulation selector" for Waveform and Morph: allows the user to select discrete values to modulate between
+  - Added "Inverter" advanced function
+  - Added "Output" waveform
+  - Added "Input Focus" functionality, allowing to adjust input behaviour for improved reusability
+  - Improved control responsiveness
+  - Fix a synchronization issue with continuous recorder modes using non-integer record lengths/bpms
+  - Fix an issue with phase synchronization
+  - Fix BPM detect issue for asymmetric clocks
+  - Added initial support for MD-002
+  - Other small fixes and improvements
+  - ➡️ Please note when upgrading from 0.1.x to 0.2.x, it is advised to reformat the SD Card. See docs for details.
+- `01/03/23: Firmware 0.1.5 released`
+  - Added dynamic recorder lengths, quantized to a 4/4 time signature
+  - Added "goto modulator" channel shortcut
+  - Added "goto previous" channel shortcut
+  - Improved external clock detection
+- `26/11/22: Firmware 0.1.4 released`
+  - Added Wavefolder, accessible as an advanced function
+  - The Sample and Hold (S&H) unit now can be configured for either traditional sampling or tracking (T&H)
+  - Fix issues with Phase synchronization, added Phase modulation
+  - Channel select within Parameter menus are now highlighted with brighter LEDs
+  - Added button shortcuts for changing the parameter while in the parameter menu
+- `02/11/22: Firmware 0.1.3 released`
+  - Fix an issue in the recorder when using single-shot mode
+  - Adjust timings of channel select overlays
+- `26/10/22: Firmware 0.1.2 released`
+  - Increase maximum record duration to 255 bars
+  - Settings of a channel can now be modified during recorder playback
+  - Many useability improvements to controls, overlays and menus
+  - Bug fixes
+- `06/10/22: Firmware 0.1.1 released`
+  - Single-shot and continuous mode recorders, along with better trigger support
+  - Modulation enhancements, including an additional offset parameter
+  - Sample & hold improvements and fixes
+  - Improve GUI overlays
+  - Bug fixes
+- `15/09/22: MD-001 Juniper is now available`
+- `14/08/22: The first production run of MD-001 Juniper underway 🎉`
+- `24/04/22: MD-001 closed beta begins`
+- `18/03/22: Announcing MD-001 Juniper: an 8 channel synced modulation source in 8HP. Coming in Q1 2022.`

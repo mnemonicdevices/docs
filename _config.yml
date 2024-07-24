@@ -1,0 +1,18 @@
+title: MD-Docs
+description: Documentation library for mnemonic devices
+theme: just-the-docs
+gems:
+  - jekyll-default-layout
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
+
+# Enable support for hyphenated search words:
+search_tokenizer_separator: /[\s/]+/
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: light
+
+# Favicon
+favicon_ico: "favicon.ico"
