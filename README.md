@@ -3,11 +3,11 @@
 
 # documentation
 
-This repository contains all `mnemonic devices` documentation. It is built with `ruby`, `jekyll`, `bundler` and `just-the-docs`. 
+This repository contains all [mnemonic devices documentation](https://docs.mnemonicdevices.io/). It is built with `ruby`, `jekyll`, `bundler` and `just-the-docs`. 
 
 ## Building and previewing locally
 
-Assuming, [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (Currently using an older version due to serverless configuration restrictions), [Jekyll](https://jekyllrb.com/docs/installation/) and [Bundler](https://bundler.io/) are installed on your computer:
+Assuming, [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (Currently using an older version due to serverless configuration restrictions) and [Bundler](https://bundler.io/) are installed on your computer:
 
 1.  Fork or clone this repository. Change your working directory to the root directory of this repository.
 
@@ -19,4 +19,4 @@ Assuming, [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (Curr
 
 ## Contributing
 
-Contributions from the community are welcome. All contributions must be approved before being merged into the main branch and subsequently deployed to the server environment.
+Contributions from the community are welcome. All contributions are approved before being merged into the main branch and subsequently deployed to the server environment.
