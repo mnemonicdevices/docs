@@ -7,7 +7,7 @@ This repository contains all `mnemonic devices` documentation. It is built with 
 
 ## Building and previewing locally
 
-Assuming, [Ruby 3.1.3](https://www.ruby-lang.org/en/documentation/installation/) (Currently using an older version due to serverless configuration restrictions), [Jekyll](https://jekyllrb.com/docs/installation/) and [Bundler](https://bundler.io/) are installed on your computer:
+Assuming, [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (Currently using an older version due to serverless configuration restrictions), [Jekyll](https://jekyllrb.com/docs/installation/) and [Bundler](https://bundler.io/) are installed on your computer:
 
 1.  Fork or clone this repository. Change your working directory to the root directory of this repository.
 
