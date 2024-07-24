@@ -10,7 +10,18 @@ nav_order: 2
 {: .label .label-yellow }
 __ATTENTION: Settings can often be wiped when a new firmware is released. [Check the upgrade guide for more information](/md001/support/updates.html)__
 
-- [`07/05/24: Firmware 0.5.3 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.5.3.bin)
+- [`24/07/24: Firmware 0.6.0 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.5.3.bin)
+  - Added Lorenz waveform
+  - Added Operand advanced parameter
+  - Reworked Quantizer with support for 8 custom scales, better modulation system and a new key editor
+  - Random waveform reworked to support new Blend parameter
+  - Phase retriggering added
+  - Copy Paste channel functionality added
+  - Amplitude and Offset units now in terms of voltage rather than percentage
+  - Added Select Tap window setting
+  - UI/UX improvements to settings
+  - Encoder responsiveness improvements
+- `07/05/24: Firmware 0.5.3 released`
   - Add small delay on bootup before initialising SD card
 - `28/03/24: Firmware 0.5.2 released`
   - Fix offset in unipolar mode

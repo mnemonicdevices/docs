@@ -8,29 +8,27 @@ grand_parent: MD-001
 
 # Modulation
 
-Modulation allows a setting or function to be adjusted in real-time by any of the other output channels or by any of the available input sources.
+Modulation allows a primary or advanced function to be adjusted in real-time by any of the other output channels or by any of the available input sources. Most parameters can be modulated.
 
-The following can be modulated:
+There are two main modes of modulation, "Threshold based" and "Curve based". Threshold means to apply a state change when the modulation source reaches a threshold value, e.g. `Sample & Hold` uses this technique.
+The other main mode is "Curve based", where curves are used to calculate a new value, e.g. `Amplitude` uses this technique.
 
-- Frequency
-- Amplitude
-- Offset
-- Phase
-- Morph (including Attack, Skew, Decay and Mix)
-- Waveform
-- Quantization
+All modulations can be configured via the [Parameter Screen](/md001/graphic_interfaces/parameter_screen.html) for a given parameter.
 
-Modulation can be configured via the [Parameter Screen](/md001/graphic_interfaces/parameter_screen.html). 
+### Threshold modulation settings
 
-### Parameters
+| Setting | Function |
+| Source | Sets the modulation source, this can be any of the internal or external channels |
+| Threshold | Threshold limit to apply a state change |
+
+### Curve modulation settings
 
 | Setting | Function |
 | Source | Sets the modulation source, this can be any of the internal or external channels |
 | Type | `Linear` or `Exponential` |
 | Index | Wet/dry mix. A value of 100 has maximum effect, a value of 0 has no effect. A value of -100 will invert the CV (useful for 0-5V input signals) |
-| Selector | `SEL` - Select discrete values for modulating. This is only available for Waveform modulation, and for Morph modulation when the Waveform is set to either `Input` or `Output`.|
 
-### Graphing
+### Linear & Exponential Curves
 
 <img src="/images/mod_curves.png" />
 
@@ -40,3 +38,4 @@ Modulation can be configured via the [Parameter Screen](/md001/graphic_interface
 When the CV source for modulation is 0.0V, then the result will be 30%, when the CV source is greater than 0.0V or below 0.0V, then the `Amplitude` will increase or decrease above or below 30% as described by the curve.
 
 | NOTE: Additional clamping curves apply to `Frequency` modulation in the sub 1Hz range.
+

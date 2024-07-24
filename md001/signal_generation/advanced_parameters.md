@@ -8,7 +8,7 @@ grand_parent: MD-001
 
 # Advanced Parameters
 
-The following advanced parameters or functions are currently available:
+The following advanced parameters are currently available:
 
 ## Recorder
 
@@ -42,7 +42,7 @@ Recorder Links allow multiple Recorders on different channels behave as one. Thi
 
 ## Sample and Hold
 
-The Sample and Hold advanced function allows an external signal to pass through a configured threshold to sample the signal for a desired period of time on a given channel.
+The Sample and Hold advanced parameter allows an external signal to pass through a configured threshold to sample the signal for a desired period of time on a given channel.
 
 There are two modes available which change the functionality of this feature:
  - Sample and Hold (S&H)
@@ -67,12 +67,22 @@ The `S&H` generally will create the classic stair-stepped output, stepping from 
 
 ## Quantizer
 
-{: .label .label-yellow }
-This feature and documentation is currently under development
+The quantizer advanced parameter provides V/octave quantization of a signal to a given note within a scale. There are up to 8 user customizable scales. When modulating, the effective scale can be modulated by stepping forward to the next scale, back to the previous scale, or randomly choosing a scale.
 
-The quantizer provides V/octave quantization of the instantaneous channel signal to a given note. Currently chromatic, major and minor triads can be selected. When enabled the `amplitude` primary function will be displayed in octaves and the quantized note value will be displayed.
+<div style="display: flex; justify-content: center;">
+    <div style="display: flex; flex-flow: column; align-items: center; justify-content: center;">
+      <img src="/images/quantizer_keyboard.jpeg" width="300px"/>
+        <span style="font-style: italic">Note Editor</span>
+    </div>
+</div>
 
-|__NOTE__: Additional improvements to the quantizer are scheduled for a future release, including custom scales and improved modulation capability.
+The following configuration is available:
+
+- Modulation source: The source of the modulation
+- Modulation threshold: The threshold in which will toggle the next/prev or random scale
+- Modulation direction: The direction, `FWD` forward, `REV` reverse, `RAN` random
+- Number of scales: The number of scales used for the user and modulation
+- Note editor: An editor to choose notes from a standard western octave
 
 <hr />
 
@@ -98,5 +108,24 @@ The modulation options for the wavefolder allow for the threshold to be modulate
         <span style="font-style: italic">Wavefolder at 50%</span>
     </div>
 </div>
+
+<hr />
+
+## Operands
+
+The Operand advanced parameter enables logical operations that involve the current channel and a selected source channel.
+
+The following operands are available:
+
+- AVG: Calculates the mean average between the two signals
+- MIN: Calculates the minimum of the two signals
+- MAX: Calculates the maximum of two signals
+- SUB: Subtracts two signals
+- ADD: Adds two signals
+- NOT: Will set the current channel to 0.0V if the source signal is beyond a defined threshold
+- OR: Allows the current channel to propagate if the current channel or the source channel are beyond a defined threshold
+- AND: Allows the current channel to propagate only if the current channel and the source channel are beyond a defined threshold
+
+The `Threshold` setting is only available for `NOT`, `OR`, and `AND`.
 
 <hr />

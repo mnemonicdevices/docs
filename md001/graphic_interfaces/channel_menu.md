@@ -26,8 +26,7 @@ All settings for the `Channel Menu` are listed in the table below
 |:-------------|:------------------|
 | Performance Screen | Open the [Performance Screen](/md001/graphic_interfaces/performance_screen.html) |
 | Mute | Mutes the channel |
-| Polarity | [Toggles between Bipolar and Polar modes](/md001/signal_generation/primary_parameters.html#amplitude). Note: during recording or playback this option is disabled |
-| Trigger source | Enables / Disables the trigger source to set the channel as a [Function Generator or as an LFO](/md001/signal_generation/lfo_functiongen_modes.html) |
-| Synchronized | Toggles between [Synchronized and Desynchronized modes](/md001/signal_generation/primary_parameters.html#frequency) |
-| Clear Mods | Removes all modulations for a channel |
+| Copy | Copy the channel |
+| Paste | Paste a channel |
+| Clear Mods | Clears the channel modulations |
 | Clear | Clears the channel and resets it back to the default state |

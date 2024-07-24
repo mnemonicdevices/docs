@@ -25,7 +25,7 @@ While Juniper can do quite a number of tasks, it was not designed to be an audio
 - 8 high resolution 16-bit output channels
 - 3 high resolution 16-bit CV inputs and 1 GATE (clock) input
 - Per channel bipolar (-5V to +5V) and unipolar modes (0V to +5V)
-- Multiple output waveforms: Sine, square, triangle, sawtooth, envelope, random, CV inputs, output mix
+- Multiple output waveforms: Sine, square, triangle, sawtooth, envelope, random, lorenz, CV inputs, output mix
 - Each channel can operate as either LFO or Function Generator
 - Each LFO can be synchronized to the clock or entirely de-synchronized
 - Powerful modulation matrix with modulation sources including all 8 internal channels and 3 CV inputs
