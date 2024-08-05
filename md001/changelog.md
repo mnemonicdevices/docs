@@ -10,8 +10,8 @@ nav_order: 2
 {: .label .label-yellow }
 __ATTENTION: Settings can often be wiped when a new firmware is released. [Check the upgrade guide for more information](/md001/support/updates.html)__
 
-- [`24/07/24: Firmware 0.6.0 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.5.3.bin)
-  - Added Lorenz waveform
+- [`05/08/24: Firmware 0.6.0 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.6.0.bin?v=1722852069)
+  - Added Lorenz chaos waveform
   - Added Operand advanced parameter
   - Reworked Quantizer with support for 8 custom scales, better modulation system and a new key editor
   - Random waveform reworked to support new Blend parameter
