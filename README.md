@@ -9,7 +9,7 @@ This repository contains all [mnemonic devices documentation](https://docs.mnemo
 
 ### Docker
 
-The recommended method is to use docker.
+The recommended method is to use `docker`.
 
 1.  Fork or clone this repository. Change your working directory to the root directory of this repository.
 
