@@ -8,5 +8,5 @@ nav_order: 1
 
 Welcome to the Mnemonic Devices documentation library.
 
-Here you will find the most up to date information regarding Mnemonic Devices eurorack modules. For corrections or clarifications please [e-mail here](mailto:support@mnemonicdevices.io).
+Here you will find the most up to date information regarding Mnemonic Devices eurorack modules. For corrections or clarifications please [use this contact form](https://www.mnemonicdevices.io/pages/about).
 
