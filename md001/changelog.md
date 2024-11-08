@@ -10,7 +10,9 @@ nav_order: 2
 {: .label .label-yellow }
 __ATTENTION: Settings can often be wiped when a new firmware is released. [Check the upgrade guide for more information](/md001/support/updates.html)__
 
-- [`08/08/24: Firmware 0.6.1 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.6.1.bin?v=1723127679)
+- [`08/11/24: Firmware 0.6.2 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.6.2.bin?v=1731084302)
+  - Fix issue with MD-002 Gin Play/Rec button handling
+- `08/08/24: Firmware 0.6.1 released`
   - Fix crash when clearing channel and envelope or random morph parameter is selected
   - Fix issue envelope skew/decay indexing
 - `05/08/24: Firmware 0.6.0 released`
