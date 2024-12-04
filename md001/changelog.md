@@ -14,7 +14,7 @@ __ATTENTION: Settings can often be wiped when a new firmware is released. [Check
 - [`12/11/24: Firmware 0.6.3 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.6.3.bin?v=1731404938)
   - Fix inaccuracy with Quantizer
   - Fix display issue with rendered Quantizer note
-- [`08/11/24: Firmware 0.6.2 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.6.2.bin?v=1731084302)
+- `08/11/24: Firmware 0.6.2 released`
   - Fix issue with MD-002 Gin Play/Rec button handling
 - `08/08/24: Firmware 0.6.1 released`
   - Fix crash when clearing channel and envelope or random morph parameter is selected
