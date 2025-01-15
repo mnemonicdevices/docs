@@ -8,7 +8,7 @@ nav_order: 3
 
 # Parameter Screen
 
-The parameter screen contains more settings for how a parameter or function works. This screen is available by _DEPRESS_ **ENCODER** while on the [Channel Screen](/md001/graphic_interfaces/channel_screen.html). The function screen will vary depending on which Basic Parameter (e.g. `Frequency`, `Morph`, etc), or Advanced Parameter (`Sample & Hold`, `Recorder`, etc) is currently selected. For detail about what settings are available, check [Primary Parameters](/md001/signal_generation/primary_parameters.html) and [Advanced Parameters](/md001/signal_generation/advanced_parameters/).
+The parameter screen contains more settings for how a parameter or function works. This screen is available by _DEPRESS_ **ENCODER** while on the [Channel Screen](/md001/graphic_interfaces/channel_screen.html). The function screen will vary depending on which Basic Parameter (e.g. `Frequency`, `Morph`, etc), or Advanced Parameter (`Sample & Hold`, `Recorder`, etc) is currently selected. For detail about what settings are available, check [Primary Parameters](/md001/signal_generation/primary_parameters.html) and [Advanced Parameters](/md001/signal_generation/advanced_parameters.html).
 
 ## Controls
 
