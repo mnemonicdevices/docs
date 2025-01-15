@@ -1,18 +1,16 @@
 ---
 layout: default
-title: MD-002
+title: MD-004
 nav_order: 3
 has_children: true
 has_toc: false
 ---
 
-MD-002 Gin Eurorack Module
+MD-004 Tonic Eurorack Module
 {: .fs-6 .fw-300 }
 
 {: .label .label-yellow }
 This documentation is currently under development
 
-| [Latest version: `0.1.4`](/md002/changelog.html)
-| Date of release: `06/03/24`
 | <a href="https://github.com/mnemonicdevices/md001/issues">Issue tracking</a>
-| <img src="/images/md002-banner.jpg" max-width="800px" />
+| <img src="https://mnemonicdevices.io/cdn/shop/files/md004-fire-bk-medium.png?v=1734568768&width=823" />
