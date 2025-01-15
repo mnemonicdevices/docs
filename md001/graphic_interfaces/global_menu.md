@@ -38,14 +38,14 @@ All settings for the `Global Menu` are listed in the table below
 | PPQN | Sets the clock resolution, or pulses per quarter note for external BPM synchronization |
 | Run SRC | Configure the run source, either as Manual, CV inputs, Clock input or Expander inputs |
 | Run Mode | Configure the run mode, either as `TRG` Trigger (rising edge) or `GTE` Gate. This setting has no effect if `Run SRC` is set to `MAN` Manual.
-| Reset Mode | Configure the run reset mode, either as `RUN` (Run), `TRG` (Trigger) or `CON` (Continue). When set as Run, a reset event will only occur when the device begins running. When set to Trigger, the device will reset whenever their is a trigger present. When set to Continue the device will continue running from its halted position. |
+| Reset Mode | Configure the run reset mode, either as `RUN` (Run), `TRG` (Trigger) or `CON` (Continue). When set as `Run`, a reset event will only occur when the device begins running. Once running any subsequent triggers from the `Run SRC` will not have any effect. When set as `Trigger`, the device will reset whenever there is a trigger from the `Run SRC`. When set to `Continue` the device will continue running from its halted position. |
 | CLK Mode | Configures the Clock input to either `BPM` or `GTE` Gate Only. When configured for BPM, the device will be clocked from the input signal. When configured for Gate Only, the Clock input has no affect on the BPM and allows the input to be used for other purposes. |
 | Input Focus | Configure the input focus mode. See below for more detail. |
 | Recorder Links | Configure recorder links for all channels. |
 | State Manager | Save, Recall and Modify states |
 | Wipe Mods | Wipes all modulation settings from the device, restoring them to default |
 | Wipe Channels | Wipes all channels from the device, restoring them to default |
-| SYSTEM | Opens the system sub menu |
+| System | Opens the system sub menu |
 
 ## Input Focus
 
