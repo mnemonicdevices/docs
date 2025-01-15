@@ -17,6 +17,7 @@ Controls for `Channel Menu` are listed in the table below
 | _ROTATE_ **ENCODER** | Adjust selected value |
 | _PRESS_ **ENCODER** | Select value / confirm value |
 | _PRESS_ **SELECT** | Escape or Back|
+| _PRESS_ **CHANNEL BUTTON** | Jump to channel while staying within the menu |
 
 ## Settings
 
@@ -30,3 +31,4 @@ All settings for the `Channel Menu` are listed in the table below
 | Paste | Paste a channel |
 | Clear Mods | Clears the channel modulations |
 | Clear | Clears the channel and resets it back to the default state |
+
