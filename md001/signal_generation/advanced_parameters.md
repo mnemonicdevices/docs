@@ -21,16 +21,15 @@ Recordings are time-quantized to bar within a 4/4 time signature. The total reco
 When configuring the recorder, the following is available:
 
 - Number of bars as given by a 4/4 time signature.
-    - `DYN`: Dynamic length recording. Record for as long as desired, then end the recording to the nearest quantized 4/4 bar. (The record length is restricted by whichever is smaller; 65536 bars or the free space of the SD Card).
-    - `0-999`: A predetermined bar length. (For recordings longer than 999 bars, use the `DYN` record length).
+  - `DYN`: Dynamic length recording. Record for as long as desired, then end the recording to the nearest quantized 4/4 bar. (The record length is restricted by whichever is smaller; 65536 bars or the free space of the SD Card).
+  - `0-999`: A predetermined bar length. (For recordings longer than 999 bars, use the `DYN` record length).
 - `Play / Stop` Trigger - which will begin or stop playback
 - `Record / Dub` Trigger - which can begin recording or overdubbing
 - `Play / Stop` Edge - `FAL` falling, `RIS` rising or `ANY` rising or falling
 - `Record / Dub` Edge - `FAL` falling, `RIS` rising or `ANY` rising or falling
 - Playback mode
-    - `CON`: Continuous playback mode, will automatically begin playback after recording and continually loop playback until stopped
-    - `SGL`: Single shot mode, will play only when requested and only once, after playback is complete the recorder returns to the `Stop` state.
-
+  - `CON`: Continuous playback mode, will automatically begin playback after recording and continually loop playback until stopped
+  - `SGL`: Single shot mode, will play only when requested and only once, after playback is complete the recorder returns to the `Stop` state.
 
 ### Recorder Links
 
@@ -45,8 +44,9 @@ Recorder Links allow multiple Recorders on different channels behave as one. Thi
 The Sample and Hold advanced parameter allows an external signal to pass through a configured threshold to sample the signal for a desired period of time on a given channel.
 
 There are two modes available which change the functionality of this feature:
- - Sample and Hold (S&H)
- - Track and Hold (T&H)
+
+- Sample and Hold (S&H)
+- Track and Hold (T&H)
 
 Both operate under the same configuration and concept, except that the `S&H` will hold and release the channel value on two subsequent _triggers_ from the incoming signal beyond a given threshold value, while the `T&H` will hold the channel value during a _gate_ from the incoming signal beyond a given threshold value.
 
@@ -82,7 +82,16 @@ The following configuration is available:
 - Modulation threshold: The threshold in which will toggle the next/prev or random scale
 - Modulation direction: The direction, `FWD` forward, `REV` reverse, `RAN` random
 - Number of scales: The number of scales used for the user and modulation
+- Transposition-Quantization ordering:
+  - `Q>T` Quantizer first and then Transpose. Chromatic transposition
+  - `T>Q` Transpose first and then Quantize. Diatonic transposition
+- Transposition offset: As represented by the number of semitones
+- Recorder-Quantization ordering:
+  - `Q>R` Quantize first and then Record
+  - `R>Q` Record first and then Quantize
 - Note editor: An editor to choose notes from a standard western octave
+
+As of 0.7.0 Juniper supports the [_MD-004 Tonic expander_](/md004/index.html)
 
 <hr />
 

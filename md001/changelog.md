@@ -8,9 +8,18 @@ nav_order: 2
 # Changelog
 
 {: .label .label-yellow }
-__ATTENTION: Settings can often be wiped when a new firmware is released. [Check the upgrade guide for more information](/md001/support/updates.html)__
+**ATTENTION: Settings can often be wiped when a new firmware is released. [Check the upgrade guide for more information](/md001/support/updates.html)**
 
-  
+- [`03/03/25: Firmware 0.7.0 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.7.0.bin?v=1741016017). _NOTE: This release includes significant changes to the underlying architecture and may have edge-case issues._
+  - Add support for MD-004 Tonic
+  - Add note transposition with PRE quantizer or POST quantizer settings
+  - Add quantizer PRE or POST recorder
+  - Rebuild recorders and underlying architecture from the ground up for improved reliability and performance
+  - Add recorder disk expansion for better write performance
+  - Files in State Manager are now sorted alphabetically
+  - Fix offset units in unipolar mode
+  - Fix add and sub ops not respecting bipolar values
+  - Add astrix for default tap window setting
 - [`12/11/24: Firmware 0.6.3 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.6.3.bin?v=1731404938)
   - Fix inaccuracy with Quantizer
   - Fix display issue with rendered Quantizer note

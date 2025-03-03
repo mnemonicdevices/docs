@@ -7,7 +7,14 @@ nav_order: 4
 
 # How to connect Tonic
 
-The 4 pin cable provided with Tonic allows connectivity to Juniper (and optionally Gin). Either of the two parallel 4 pin connectors at the bottom of Tonic labeled `Expansion` can be used. The order in which Juniper, Tonic and Gin are connected is irrelevant, the only important thing is that **all cables must be in the same orientation**, for example if the connector cable has a green wire at the top, ensure the green wire is at the top for all connections.
+<div style="float: right; padding-left: 10px;">
+    <div style="display: flex; flex-flow: column; align-items: center; justify-content: center;">
+        <img src="/images/md004-backside.jpg" width="100px" />
+        <span style="font-style: italic">MD-004 Tonic backside</span>
+    </div>
+</div>
+
+The 4 pin cable provided with Tonic allows connectivity to Juniper (and optionally Gin). Either of the two parallel 4 pin connectors at the bottom of Tonic labeled `Expansion` can be used. The order in which Juniper, Tonic and Gin are connected is irrelevant, the only important thing is that **the cable must be in the same orientation**, for example if the connector cable has a green wire at the top, ensure the green wire is at the top for the other connection.
 
 # How to update Tonic
 
@@ -25,18 +32,18 @@ You can then select the #2 custom scale by once again holding **SHIFT** and pres
 
 ## Transposing a Scale
 
-Transposition is easy, simply press **UP** or **DOWN**. By default the Quantizer will shift by an Octave (12 semitones). You can change the transposition interval by holing **SHIFT** and pressing any of the white keys of the keyboard, for example `PER.5TH`. 
+Transposition is easy, simply press **UP** or **DOWN**. By default the Quantizer will shift by an Octave (12 semitones). You can change the transposition interval by holing **SHIFT** and pressing any of the white keys of the keyboard, for example `PER.5TH`.
 
 Clearing the transposition is just as easy, by holding **SHIFT** and pressing the clear button.
 
 ### Chromatic transposition
 
-Chromatic transposition applies transposition *after* the quantizer, allowing notes to deviate from the scale that is set. For example if the C Major triad scale is selected C-E-G, a chromatic transposition of a whole note will mean notes will now land on D-F-A. This kind of transposition is what is usually expected, and allows for interesting tonal changes.
+Chromatic transposition applies transposition _after_ the quantizer, allowing notes to deviate from the scale that is set. For example if the C Major triad scale is selected C-E-G, a chromatic transposition of a whole note will mean notes will now land on D-F-A. This kind of transposition is what is usually expected, and allows for interesting tonal changes.
 
 ### Diatonic transposition
 
-Diatonic transposition applies the transposition *before* the quantizer, meaning that the selected notes of the scale are maintained, but the ordering of them changes. For example for a C Major traid scale C-E-G, a diatonic transposition of a whole note will yield G-C-E. 
+Diatonic transposition applies the transposition _before_ the quantizer, meaning that the selected notes of the scale are maintained, but the ordering of them changes. For example for a C Major traid scale C-E-G, a diatonic transposition of a whole note will yield G-C-E.
 
 ## Live mode
 
-Live mode allows shifting of the root note by any number of semitones, as well as changing the octave, easily. 
+Live mode allows shifting of the root note by any number of semitones, as well as changing the octave, easily.
