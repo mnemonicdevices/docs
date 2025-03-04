@@ -19,7 +19,7 @@ nav_order: 2
   - Files in State Manager are now sorted alphabetically
   - Fix offset units in unipolar mode
   - Fix add and sub ops not respecting bipolar values
-  - Add astrix for default tap window setting
+  - Add asterisk for default tap window setting
 - [`12/11/24: Firmware 0.6.3 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.6.3.bin?v=1731404938)
   - Fix inaccuracy with Quantizer
   - Fix display issue with rendered Quantizer note
