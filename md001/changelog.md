@@ -10,7 +10,10 @@ nav_order: 2
 {: .label .label-yellow }
 **ATTENTION: Settings can often be wiped when a new firmware is released. [Check the upgrade guide for more information](/md001/support/updates.html)**
 
-- [`03/03/25: Firmware 0.7.0 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.7.0.bin?v=1741016017). _NOTE: This release includes significant changes to the underlying architecture and may have edge-case issues._
+- [`05/03/25: Firmware 0.7.1 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.7.1.bin?v=1741165171). _NOTE: This release includes significant changes to the underlying architecture and may have edge-case issues._
+  - Fix SD Card detection on boot
+  - Adjust UI task priority to reduce frame lag when expanding recorders
+- `03/03/25: Firmware 0.7.0 released`
   - Add support for MD-004 Tonic
   - Add note transposition with PRE quantizer or POST quantizer settings
   - Add quantizer PRE or POST recorder
