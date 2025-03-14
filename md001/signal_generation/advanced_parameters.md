@@ -65,9 +65,9 @@ The `S&H` generally will create the classic stair-stepped output, stepping from 
 
 <hr />
 
-## Quantizer
+## Scale (Quantizer)
 
-The quantizer advanced parameter provides V/octave quantization of a signal to a given note within a scale. There are up to 8 user customizable scales. When modulating, the effective scale can be modulated by stepping forward to the next scale, back to the previous scale, or randomly choosing a scale.
+The scale (AKA quantizer) advanced parameter provides V/octave quantization of a signal to a given note within a scale. There are up to 8 user customizable scales. When modulating, the effective scale can be modulated by stepping forward to the next scale, back to the previous scale, or randomly choosing a scale.
 
 <div style="display: flex; justify-content: center;">
     <div style="display: flex; flex-flow: column; align-items: center; justify-content: center;">
