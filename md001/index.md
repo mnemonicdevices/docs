@@ -15,7 +15,7 @@ This documentation is currently under development
 {: .label .label-yellow }
 Please be aware that Juniper's firmware is in beta. New releases come out every few months that contain new features, improvements and bug fixes. Issue tracking is available below.
 
-| [Latest version: `0.7.2`](/md001/changelog.html)
-| Date of release: `10/03/25`
+| [Latest version: `0.7.3`](/md001/changelog.html)
+| Date of release: `14/03/25`
 | <a href="https://github.com/mnemonicdevices/md001/issues">Issue tracking</a>
 | <img src="/images/md001-banner.jpeg" max-width="800px" />
