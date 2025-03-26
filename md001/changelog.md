@@ -10,7 +10,11 @@ nav_order: 2
 {: .label .label-yellow }
 **ATTENTION: Settings can often be wiped when a new firmware is released. [Check the upgrade guide for more information](/md001/support/updates.html)**
 
-- [`15/03/25: Firmware 0.7.3 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.7.3.bin?v=1741985492). _NOTE: This release includes significant changes to the underlying architecture and may have edge-case issues._
+- [`26/03/25: Firmware 0.7.4 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.7.4.bin?v=1742984856). _NOTE: This release includes significant changes to the underlying architecture and may have edge-case issues._
+  - Fix SDMMC interface stability
+  - Fix an issue that can lead to a crash during recording/playback
+  - Fix bootup led animation sequence
+- `15/03/25: Firmware 0.7.3 released`
   - Fix string rendering issue in Phase Configuration
 - `05/03/25: Firmware 0.7.2 released`
   - Fix clock state not feeding into modulation matrix
