@@ -11,6 +11,7 @@ nav_order: 2
 **ATTENTION: Settings can often be wiped when a new firmware is released. [Check the upgrade guide for more information](/md001/support/updates.html)**
 
 - [`23/03/26: Firmware 0.8.0 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.8.0.bin?v=1774263262)
+  - Add manual gate performance mode
   - Oneshot mode now tracks offset value
   - Fix random waveform in oneshot mode
   - Add phase triggering threshold
