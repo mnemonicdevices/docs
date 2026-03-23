@@ -10,7 +10,16 @@ nav_order: 2
 {: .label .label-yellow }
 **ATTENTION: Settings can often be wiped when a new firmware is released. [Check the upgrade guide for more information](/md001/support/updates.html)**
 
-- [`17/04/25: Firmware 0.7.5 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.7.5.bin?v=1744882708). _NOTE: This release includes significant changes to the underlying architecture and may have edge-case issues._
+- [`23/03/26: Firmware 0.8.0 released`](https://cdn.shopify.com/s/files/1/0842/2113/3146/files/md001-0.8.0.bin?v=1774263262)
+  - Oneshot mode now tracks offset value
+  - Fix random waveform in oneshot mode
+  - Add phase triggering threshold
+  - Gate threshold globally has been adjusted to 1V (low), 2.5V (high), as per doepfer spec
+  - Fix screensaver and dimming issue & encoder dismissal
+  - Fix display driver artifacts
+  - Fix occassional device lockup when left idle for prolonged period
+  - Improve I2C stability with rev9 hardware
+- `17/04/25: Firmware 0.7.5 released`
   - Fix Recorder transients
   - Use adaptive framerate for animations
   - Improve processor caching performance
