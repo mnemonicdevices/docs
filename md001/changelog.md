@@ -16,6 +16,7 @@ nav_order: 2
   - Fix random waveform in oneshot mode
   - Add phase triggering threshold
   - Gate threshold globally has been adjusted to 1V (low), 2.5V (high), as per doepfer spec
+  - Add small indicator for better bipolar/unipolar visual feedback
   - Fix screensaver and dimming issue & encoder dismissal
   - Fix display driver artifacts
   - Fix occassional device lockup when left idle for prolonged period
